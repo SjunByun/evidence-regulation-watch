@@ -47,7 +47,7 @@ Depth over breadth, deliberately:
 ## How to navigate
 ## Start here
 
-📍 **[Where AI Meets RWE: A Map of the Regulatory Landscape Across Four Jurisdictions](analyses/2026-07_ai-and-rwe-four-jurisdictions.md)**
+📍 **[Where AI Meets RWE: A Map of the Regulatory Landscape Across Four Jurisdictions](analysis/2026-07_ai-and-rwe.md)**
 
 A consolidated timeline and jurisdiction-by-jurisdiction comparison of AI and RWE regulation across the US, EU, Japan, and Korea — including the five questions no regulator has yet answered. Maintained as new documents are published.
 
