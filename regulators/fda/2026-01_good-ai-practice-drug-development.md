@@ -1,4 +1,4 @@
---
+---
 title: "Guiding Principles of Good AI Practice in Drug Development"
 issuer: [FDA, EMA]
 domain: [ai]
