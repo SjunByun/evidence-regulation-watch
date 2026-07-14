@@ -3,11 +3,11 @@ title: "Guiding Principles of Good AI Practice in Drug Development"
 issuer: [FDA, EMA]
 domain: [ai]
 doc_type: joint-principles
-published: 2026-01
-legal_status: non-binding joint principles (not formal jurisdiction-specific guidance)
+published: 2026-01-14
+legal_status: non-binding (not formal guidance)
 jurisdiction: [US, EU]
 source_url: "https://www.fda.gov/media/189581/download"
-tags: [ai-governance, drug-development, validation, lifecycle-management, data-provenance, context-of-use, generalizability, transportability]
+tags: [ai-governance, drug-development, validation, lifecycle-management, data-provenance, context-of-use]
 note_status: published
 last_reviewed: 2026-07-14
 ---
