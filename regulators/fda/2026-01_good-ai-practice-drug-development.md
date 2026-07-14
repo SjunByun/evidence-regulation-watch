@@ -1,6 +1,6 @@
+---
 title: "Guiding Principles of Good AI Practice in Drug Development"
 issuer: FDA
-domain: [ai]
 doc_type: draft-guidance   # TODO: confirm draft vs final
 published: 2026-01
 legal_status: non-binding
@@ -28,7 +28,7 @@ last_reviewed: 2026-07-14
 | Legal status | Non-binding guidance |
 | Comment period | <!-- open? deadline? --> |
 | Scope | AI used across the drug development lifecycle <!-- refine: does it cover RWE/postmarketing? devices excluded? --> |
-| Relationship to other documents | Builds on FDA's Jan 2025 "Considerations for the Use of AI to Support Regulatory Decision-Making" <!-- confirm --> |
+| Relationship to other documents | Builds on FDA's Jan 2025 "Considerations for the Use of AI to Support Regulatory Decision-Making" <!-- confirm; note relationship to device lifecycle guidance --> |
 
 ## 2. What the document says
 <!-- Follow the guidance's own section structure. No opinion here.
@@ -47,22 +47,20 @@ last_reviewed: 2026-07-14
 <!-- My interpretation. Prose, arguable claims. -->
 
 ### Study design
-<!-- Does "context of use" map onto estimand thinking? What changes in an RWE
-     protocol when an AI-derived variable defines exposure, outcome, or a confounder? -->
+<!-- e.g., does "context of use" map onto estimand thinking? What changes in an
+     RWE protocol when an AI-derived variable defines exposure, outcome, or a confounder? -->
 
 ### Data & provenance
-<!-- Lineage expectations for NLP-extracted variables; curation documentation;
+<!-- e.g., lineage expectations for NLP-extracted variables; curation documentation;
      how this interacts with fragmented claims–EMR settings. -->
 
 ### Validation burden
-<!-- What counts as a reference standard? Does model performance transport across
-     sites and populations? Does one-time validation survive a lifecycle framing? -->
-
-### Evidentiary standard
-<!-- What level of evidence does FDA treat as sufficient, and for what claim? -->
+<!-- e.g., what counts as a reference standard; site/population transportability of
+     model performance; whether one-time validation survives a lifecycle framing. -->
 
 ### Documentation & audit
-<!-- Artifacts a sponsor or CRO must produce on request. SAP vs separate AI package? -->
+<!-- e.g., artifacts a sponsor or CRO must be able to produce; where this lands in the
+     SAP vs a separate AI documentation package. -->
 
 ### Who is affected
 <!-- Sponsor vs CRO vs data holder vs AI vendor: whose workload actually changes? -->
