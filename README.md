@@ -90,10 +90,7 @@ Sections 2 and 3 are strictly separated so readers can always tell source from o
 
 ## About the author
 
-**Seongjun Byun (변성준)** — RWE Team Lead at a Korean CRO. PhD in pharmacoepidemiology (Sungkyunkwan University). 26 peer-reviewed publications in RWE/RWD. Speaker at DIA Korea, PHUSE, and Korean Statistical Society meetings on causal inference, ICH M14 implementation, and RWD study design.
-
-- LinkedIn: *(link)*
-- Selected talks & papers: *(link)*
+**Seongjun Byun (변성준)** — RWE Team Lead at a Korean CRO. PhD in pharmacoepidemiology. 26 peer-reviewed publications in RWE/RWD. Speaker at DIA Korea, PHUSE, and Korean Statistical Society meetings on causal inference, ICH M14 implementation, and RWD study design.
 
 ## Disclaimer
 
