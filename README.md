@@ -44,23 +44,19 @@ Depth over breadth, deliberately:
 | DTx / digital health | Selective | Covered through the evidence-requirements lens, not product regulation in full |
 | Data standards (CDISC, OMOP, ICH M11) | Foundational | The plumbing all three domains depend on |
 
-## How to navigate
 ## Start here
 
-📍 **[Where AI Meets RWE: A Map of the Regulatory Landscape Across Four Jurisdictions](analysis/2026-07_ai-and-rwe.md)**
+📍 **[Where AI Meets RWE: A Map of the Regulatory Landscape Across Four Jurisdictions](analyses/2026-07_ai-and-rwe-four-jurisdictions.md)**
 
 A consolidated timeline and jurisdiction-by-jurisdiction comparison of AI and RWE regulation across the US, EU, Japan, and Korea — including the five questions no regulator has yet answered. Maintained as new documents are published.
 
 ## How to navigate
 
-| Entry point | Use it when… |
-|---|---|
-| [`index/coverage-map.md`](index/coverage-map.md) | You want the master list of all documents and their status |
-| [`index/by-domain.md`](index/by-domain.md) | You care about one domain (AI / RWE / DTx / standards) |
-| [`index/by-theme.md`](index/by-theme.md) | You care about a theme (validation, transparency, provenance…) across domains |
-| [`index/timeline.md`](index/timeline.md) | You need effective dates, comment deadlines, and what is coming next |
-| [`analyses/`](analyses/) | You want cross-cutting synthesis — e.g. the [four-jurisdiction AI × RWE map](analyses/2026-07_ai-and-rwe-four-jurisdictions.md) |
+- **[`analyses/`](analyses/)** — cross-cutting synthesis across regulators and domains
+- **[`regulators/`](regulators/)** — notes on individual documents, filed by issuing agency
+- **`TEMPLATE.md`** — the format every note follows
 
+Topic and timeline indexes will be added as the collection grows.
 
 Documents are filed by issuer under [`regulators/`](regulators/) and [`standards/`](standards/), named `YYYY-MM_short-slug.md` by publication date.
 
