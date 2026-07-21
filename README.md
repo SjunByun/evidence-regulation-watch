@@ -54,7 +54,6 @@ Notes are filed under [`regulators/`](regulators/) by issuing agency. Correction
 
 **Seongjun Byun (변성준)** — RWE Team Lead at a Korean CRO. PhD in pharmacoepidemiology. 26 peer-reviewed publications. Speaker at DIA Korea, PHUSE, and Korean Statistical Society meetings on causal inference, ICH M14, and real-world data study design.
 
-LinkedIn: *(link)*
 
 ## License
 
