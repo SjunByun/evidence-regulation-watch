@@ -1,105 +1,61 @@
 # Evidence Regulation Watch
 
-**How new kinds of data and technology become regulatory-grade evidence — AI, real-world evidence, and digital therapeutics, read through the lens of study design.**
+**One question: under what conditions does data produced by a new technology become evidence a regulator will accept?**
 
 ---
 
 ## What this is
 
-A living knowledge base tracking regulatory and standards documents across three converging domains:
+Notes on regulatory documents that bear on how evidence gets made — AI in drug development, real-world data, digital health. They are usually tracked as separate fields. I track them together because they are the same question asked in different settings.
 
-- **AI in drug development & medical devices** — validation, lifecycle management, governance
-- **Real-world evidence (RWE)** — from claims/EMR observational studies to regulatory acceptance (ICH M14 and beyond)
-- **Digital therapeutics (DTx) & digital health technologies** — evidence requirements for approval and reimbursement
+Each note has two layers, kept separate:
 
-These are usually tracked separately. I keep them together because they are the same question asked three ways: *what does it take for a novel data source or technology to count as evidence a regulator will accept?*
+- **What the document says** — a summary, faithful to the source.
+- **What it means in practice** — my reading as someone who designs studies: what changes in a protocol, what has to be validated, what a regulator will actually ask for.
 
-Every note separates two things that are usually blurred:
+The second layer is the point. Summaries are easy to find. Translation into study design is not.
 
-1. **What the document says** — a faithful, sourced summary.
-2. **What it means in practice** — my interpretation as a study designer: how this changes protocol writing, data provenance requirements, validation burden, and what a sponsor or regulator will actually ask for.
+Not legal or regulatory advice. Not the views of my employer.
 
-The second part is the point. Summaries are abundant; translation into evidence-generation practice is not.
+## Why I keep it
 
-## What this is not
+Evidence is increasingly built from things that did not used to count as measurements: variables extracted by NLP from clinical notes, endpoints produced by models, curated real-world data standing in for trial data. Each one raises the same question a regulator will ask — *how do you know this is valid?* — and answering it takes epidemiology, not benchmarks.
 
-- Not legal advice, and not regulatory consulting.
-- Not a news feed. Documents are added when I have read them and have something to say about their practical consequences.
-- Not the views of my employer. All interpretation is my own.
-
-## Why I keep this
-
-Evidence generation is being rebuilt around new inputs: NLP-extracted variables in observational studies, model-generated endpoints, DTx trials whose intervention *is* software, RWD flowing into regulatory submissions. Someone has to answer the question regulators will ask — *"how do you know this is valid?"* — in the language of epidemiology and study design, not model benchmarks or product marketing.
-
-That translation layer — between novel data/technology and regulatory-grade evidence — is where I work. I am a pharmacoepidemiologist (PhD) with 11 years across hospital data analysis and CRO-based RWE, specializing in causal inference (target trial emulation, propensity score methods, SCCS, negative control outcomes), OMOP CDM, claims–EMR integration, and ICH M14 implementation. This repository is where I think through what the emerging regulatory landscape demands of that work.
-
-## Domain priorities
-
-Depth over breadth, deliberately:
-
-| Domain | Depth | Rationale |
-|---|---|---|
-| RWE regulation | Deep | My core practice area; ICH M14 implementation is a daily concern |
-| AI in evidence generation | Deep | Where my current research sits (AI-derived variables in causal studies) |
-| DTx / digital health | Selective | Covered through the evidence-requirements lens, not product regulation in full |
-| Data standards (CDISC, OMOP, ICH M11) | Foundational | The plumbing all three domains depend on |
+That translation is my work. I am a pharmacoepidemiologist (PhD, Sungkyunkwan University) with eleven years across hospital data analysis and CRO-based real-world evidence: causal inference (target trial emulation, propensity score methods, SCCS, negative control outcomes), OMOP CDM, claims and EMR studies, ICH M14. This repository is where I work out what the emerging regulatory landscape asks of that practice.
 
 ## Start here
 
-📍 **[Where AI Meets RWE: A Map of the Regulatory Landscape Across Four Jurisdictions](analyses/2026-07_ai-and-rwe-four-jurisdictions.md)**
+**[Where AI Meets RWE: A Map of the Regulatory Landscape Across Four Jurisdictions](analyses/2026-07_ai-and-rwe-four-jurisdictions.md)**
 
-A consolidated timeline and jurisdiction-by-jurisdiction comparison of AI and RWE regulation across the US, EU, Japan, and Korea — including the five questions no regulator has yet answered. Maintained as new documents are published.
+A timeline and comparison across the US, EU, Japan, and Korea, with the five questions no regulator has yet answered. Updated as documents appear.
 
-## How to navigate
+## Notes
 
-- **[`analyses/`](analyses/)** — cross-cutting synthesis across regulators and domains
-- **[`regulators/`](regulators/)** — notes on individual documents, filed by issuing agency
-- **`TEMPLATE.md`** — the format every note follows
+**Analyses** — synthesis across documents
 
-Topic and timeline indexes will be added as the collection grows.
+- [Where AI Meets RWE: four jurisdictions](analyses/2026-07_ai-and-rwe-four-jurisdictions.md)
 
-Documents are filed by issuer under [`regulators/`](regulators/) and [`standards/`](standards/), named `YYYY-MM_short-slug.md` by publication date.
+**FDA** — [document landscape](regulators/fda/)
 
-## Coverage map (snapshot)
+- [Guiding Principles of Good AI Practice in Drug Development](regulators/fda/2026-01_fda-ema-good-ai-practice.md) (with EMA, Jan 2026) — the burden of proof moves from the model to its use
+- [Assessing EHR and Medical Claims Data](regulators/fda/2024-07_rwd-ehr-claims.md) (Jul 2024) — an AI extractor is an operational definition, and inherits everything one owes
 
-Status: 🟢 published note · 🟡 in progress · ⚪ planned
+**EMA**
 
-| Document | Issuer | Domain | Published | Status |
-|---|---|---|---|---|
-| Guiding Principles of Good AI Practice in Drug Development | FDA | AI | 2026-01 | 🟡 |
-| Considerations for the Use of AI to Support Regulatory Decision-Making for Drug and Biological Products | FDA | AI | 2025-01 | ⚪ |
-| AI-Enabled Device Software Functions: Lifecycle Management | FDA | AI · device | 2025-01 | ⚪ |
-| EU AI Act — high-risk classification of medical AI | EU | AI | 2024 | ⚪ |
-| ICH M14 (RWE for safety of medicines) | ICH | RWE | — | ⚪ |
-| FDA RWE guidance series (data standards, EHR/claims, registries) | FDA | RWE | 2021–2024 | ⚪ |
-| EMA / DARWIN EU — RWE framework | EMA | RWE | — | ⚪ |
-| MFDS RWE guidance (식약처 실사용증거 가이드라인) | MFDS | RWE | — | ⚪ |
-| FDA — Digital Health Technologies for Remote Data Acquisition in Clinical Investigations | FDA | DTx · RWE | 2023-12 | ⚪ |
-| MFDS Digital Therapeutics guidance (디지털치료기기 허가·심사 가이드라인) | MFDS | DTx | — | ⚪ |
-| Germany DiGA fast-track — evidence requirements | BfArM | DTx | — | ⚪ |
-| NIST AI Risk Management Framework | NIST | AI | 2023 | ⚪ |
-| ISO/IEC 42001 · 42005 · 22989 | ISO | AI | — | ⚪ |
-| Korea AI Framework Act (AI 기본법) | Korea | AI | 2024-12 | ⚪ |
-| CDISC / ICH M11 protocol standardization & RWD integration | CDISC·ICH | Standards | — | ⚪ |
+- [AI in the Medicinal Product Lifecycle](regulators/ema/2024-09_ai-medicinal-product-lifecycle.md) (Sep 2024) — two risk axes, and the cell where evidence generation sits
 
-The authoritative, always-current version of this table lives in [`index/coverage-map.md`](index/coverage-map.md).
+## How the notes are built
 
-## Note format
+Every note follows one format, set out in [`TEMPLATE.md`](TEMPLATE.md): summary, then interpretation, then open questions, then a changelog. Document status — statute, final guidance, draft, reflection paper — is stated every time, because comparing documents of different legal weight is the most common way to get this subject wrong.
 
-Every note follows the same structure (defined in [`TEMPLATE.md`](TEMPLATE.md)):
+Notes are filed under [`regulators/`](regulators/) by issuing agency. Corrections are recorded in each note's changelog rather than quietly edited.
 
-> **TL;DR** → **1. Document profile** → **2. What the document says** → **3. What it means in practice** (clearly marked as interpretation) → **4. Cross-references** → **5. Watchlist & open questions** → **6. Changelog**
+## About
 
-Sections 2 and 3 are strictly separated so readers can always tell source from opinion.
+**Seongjun Byun (변성준)** — RWE Team Lead at a Korean CRO. PhD in pharmacoepidemiology. 26 peer-reviewed publications. Speaker at DIA Korea, PHUSE, and Korean Statistical Society meetings on causal inference, ICH M14, and real-world data study design.
 
-## About the author
-
-**Seongjun Byun (변성준)** — RWE Team Lead at a Korean CRO. PhD in pharmacoepidemiology. 26 peer-reviewed publications in RWE/RWD. Speaker at DIA Korea, PHUSE, and Korean Statistical Society meetings on causal inference, ICH M14 implementation, and RWD study design.
-
-## Disclaimer
-
-Personal project. Interpretations are my own professional opinions, provided for discussion, and do not constitute legal or regulatory advice, nor represent the position of any employer or client. Always consult the primary source documents, which are linked in each note.
+LinkedIn: *(link)*
 
 ## License
 
-Notes and analyses: CC BY 4.0. Quoted regulatory text remains the property of its issuers.
+Notes: CC BY 4.0. Regulatory text quoted or summarized remains the property of its issuers; primary sources are linked in every note.
